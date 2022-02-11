@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.table > tbody {
+  vertical-align: middle !important;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 3px;
+  width: 30px;
+  height: 25px;
+}
+
+th {
+  background: #fff;
+}
+
+.even {
+  background: #fbf8f0;
+}
+
+.odd {
+  background: #eeeeee;
+}
+
+.student_result .student_left {
+  width: 25%;
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+}
+
+.student_result .student_Right {
+  width: 75%;
+  margin-left: auto;
+}
+
+.student-modal img {
+  width: 250px;
+  height: auto;
+  border: 10px solid #fff;
+  display: block;
+  margin: auto;
+}
+
+.student-modal h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
